@@ -1,0 +1,35 @@
+body {
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 100px;
+    word-break: break-all;
+    letter-spacing: 30px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    overflow-wrap: break-word;
+
+}
+
+.cols {
+    display:flex;
+    flex-direction: row;
+    align-items: stretch;
+    min-height: 90vh;
+}
+
+.col {
+    padding: 1em 2em;
+    /* border-right: 1px dashed grey; */
+    flex: 1;
+}
+
+
+.blue {
+    transition: 1s;
+    font-size: 5em;
+    letter-spacing: normal;
+    text-align: center;
+    word-break: keep-all;
+}
