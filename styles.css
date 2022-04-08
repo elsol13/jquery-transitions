@@ -9,18 +9,19 @@ h2 {
     font-family: 'Playfair Display';
     font-style: italic;
     overflow-wrap: break-word;
+    line-height: 2em;
 
 }
 
 .cols {
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: stretch;
     min-height: 90vh;
+    gap: 0px;
 }
 
 .col {
-    padding: 1em 2em;
     /* border-right: 1px dashed grey; */
     flex: 1;
 }
@@ -31,5 +32,6 @@ h2 {
     font-size: 5em;
     letter-spacing: normal;
     text-align: center;
-    word-break: keep-all;
+    /* word-break: keep-all; */
+    word-spacing: 1em;
 }
